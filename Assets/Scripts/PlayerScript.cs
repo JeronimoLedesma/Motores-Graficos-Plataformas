@@ -1,6 +1,7 @@
 using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerScript : MonoBehaviour
@@ -147,6 +148,14 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Floor"))
         {
             canJump = true;
+        }
+        if (collision.gameObject.CompareTag("Death"))
+        {
+            SceneManager.LoadScene(0);
+        }
+        if (collision.gameObject.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene(1);
         }
     }
 
