@@ -363,7 +363,7 @@ Transform:
   m_GameObject: {fileID: 63008658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -53.97, y: 14.174153, z: -3.6732}
+  m_LocalPosition: {x: -60.290184, y: 14.174153, z: -7.7531986}
   m_LocalScale: {x: 5.983776, y: 5.983776, z: 5.983776}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -771,7 +771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.239822
+      value: -61.560005
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.y
@@ -779,7 +779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.710001
+      value: -22.79
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalRotation.w
@@ -875,7 +875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4704482706556369807, guid: 16355ee29b4c3cd4f819e08835929013, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.51
+      value: -49.830177
       objectReference: {fileID: 0}
     - target: {fileID: 4704482706556369807, guid: 16355ee29b4c3cd4f819e08835929013, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1239,7 +1239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4704482706556369807, guid: 16355ee29b4c3cd4f819e08835929013, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -54.77632
+      value: -61.096504
       objectReference: {fileID: 0}
     - target: {fileID: 4704482706556369807, guid: 16355ee29b4c3cd4f819e08835929013, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1247,7 +1247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4704482706556369807, guid: 16355ee29b4c3cd4f819e08835929013, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.210001
+      value: -15.29
       objectReference: {fileID: 0}
     - target: {fileID: 4704482706556369807, guid: 16355ee29b4c3cd4f819e08835929013, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1301,7 +1301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -54.99982
+      value: -61.32
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1363,7 +1363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.03982
+      value: -38.36
       objectReference: {fileID: 0}
     - target: {fileID: 2187933415465349616, guid: 58efa883f75483947b892ebd6ec7b426, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1429,7 +1429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 201638886698269265, guid: 945911e1d1fcd124d9b545d17da67bc1, type: 3}
       propertyPath: dashForce
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 201638886698269265, guid: 945911e1d1fcd124d9b545d17da67bc1, type: 3}
       propertyPath: jumpForce
@@ -1458,6 +1458,10 @@ PrefabInstance:
     - target: {fileID: 201638886698269265, guid: 945911e1d1fcd124d9b545d17da67bc1, type: 3}
       propertyPath: climbMaxTime
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 201638886698269265, guid: 945911e1d1fcd124d9b545d17da67bc1, type: 3}
+      propertyPath: dashDuration
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 201638886698269265, guid: 945911e1d1fcd124d9b545d17da67bc1, type: 3}
       propertyPath: wallAngleMax
